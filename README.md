@@ -2,16 +2,16 @@
 ##INSTALL
 Install latest stable WPBrowser package via Composer (WPBrowser will install Codeception for you):
 
-    `composer require lucatume/wp-browser --dev`
+    composer require lucatume/wp-browser --dev
 
 If a dependency resolution issue arises and you have previously installed codeception/codeception try removing it and requiring just lucatume/wp-browser:
 
-    `composer remove codeception/codeception --dev`
-    `composer require lucatume/wp-browser --dev`
+    composer remove codeception/codeception --dev
+    composer require lucatume/wp-browser --dev
 
 ##SETUP
 
-    `./vendor/bin/codecept init wpbrowser`
+    ./vendor/bin/codecept init wpbrowser
 
 ##ACCEPTANCE TESTS
 #####config file acceptance.suite.yml
@@ -88,9 +88,9 @@ If a dependency resolution issue arises and you have previously installed codece
                 uploads: '/wp-content/uploads'
 
 ##Initialize your testing environment with
-    `vendor/bin/codecept bootstrap`
-    `vendor/bin/codecept build`
+    vendor/bin/codecept bootstrap
+    vendor/bin/codecept build
 
 ##Run
 
-    `vendor/bin/codecept run --steps`
+    vendor/bin/codecept run --steps
