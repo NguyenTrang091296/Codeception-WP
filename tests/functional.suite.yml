@@ -8,7 +8,6 @@ modules:
     enabled:
         - WPDb
         - WPBrowser
-        # - WPFilesystem
         - Asserts
         - \Helper\Functional
     config:

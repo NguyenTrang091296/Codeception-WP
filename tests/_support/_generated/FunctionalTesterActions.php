@@ -4298,7 +4298,7 @@ trait FunctionalTesterActions
      * // link in context
      * $I->click('Logout', '#nav');
      * // using strict locator
-     * $I->click(['link' => 'Login']);
+     * $I->click(['link' => 'Category']);
      * ?>
      * ```
      *
@@ -4396,7 +4396,7 @@ trait FunctionalTesterActions
      *
      * ```php
      * <?php
-     * $I->dontSee('Login');                         // I can suppose user is already logged in
+     * $I->dontSee('Category');                         // I can suppose user is already logged in
      * $I->dontSee('Sign Up','h1');                  // I can suppose it's not a signup page
      * $I->dontSee('Sign Up','//body/h1');           // with XPath
      * $I->dontSee('Sign Up', ['css' => 'body h1']); // with strict CSS locator
@@ -4432,7 +4432,7 @@ trait FunctionalTesterActions
      *
      * ```php
      * <?php
-     * $I->dontSee('Login');                         // I can suppose user is already logged in
+     * $I->dontSee('Category');                         // I can suppose user is already logged in
      * $I->dontSee('Sign Up','h1');                  // I can suppose it's not a signup page
      * $I->dontSee('Sign Up','//body/h1');           // with XPath
      * $I->dontSee('Sign Up', ['css' => 'body h1']); // with strict CSS locator
@@ -5348,7 +5348,7 @@ trait FunctionalTesterActions
      *
      * ``` html
      * <form action="/sign_up">
-     *     Login:
+     *     Category:
      *     <input type="text" name="user[login]" /><br/>
      *     Password:
      *     <input type="password" name="user[password]" /><br/>
@@ -6514,7 +6514,7 @@ trait FunctionalTesterActions
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
-     * Login as the administrator user using the credentials specified in the module configuration.
+     * Category as the administrator user using the credentials specified in the module configuration.
      *
      * The method will **not** follow redirection, after the login, to any page.
      *
@@ -6534,7 +6534,7 @@ trait FunctionalTesterActions
     /**
      * [!] Method is generated. Documentation taken from corresponding module.
      *
-     * Login as the specified user.
+     * Category as the specified user.
      *
      * The method will **not** follow redirection, after the login, to any page.
      *
