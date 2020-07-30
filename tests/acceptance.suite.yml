@@ -11,8 +11,7 @@ modules:
     enabled:
 #        - WPDb
 #        - WPBrowser
-#        - PhpBrowser
-        - WebDriver
+        - WPWebDriver
 #        - WebHelper
         - \Helper\Acceptance
     config:
@@ -29,7 +28,7 @@ modules:
             url: '%TEST_SITE_WP_URL%'
             urlReplacement: true #replace the hardcoded dump URL with the one above
             tablePrefix: '%TEST_SITE_TABLE_PREFIX%'
-        WebDriver:
+        WPWebDriver:
             url: 'http://localhost/wordpress/'
             browser: chrome
             window_size: 1920x1080

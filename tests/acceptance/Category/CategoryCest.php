@@ -65,7 +65,7 @@ class CategoryCest
 	public function loginAdmin(AbstractStep $I, $scenario)
 	{
 		$I->wantTo('Login on admin');
-		$I->loginAdmin($this->userName, $this->passWord);
+		$I->loginAsAdmin();
 
 		$I = new CategoriesStep($scenario);
 		$I->createCategory($this->categoryName, $this->categorySlug, $this->categoryDescription);
